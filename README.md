@@ -67,8 +67,6 @@ With later-week tools, I'd add tests and persistence, but only when the course a
 
 ## Screenshots
 
-> Drop these in before submission.
-
 ![1st_page](screenshots/1st_screen.png)
 ![2nd_page](screenshots/2nd_screen.png)
 ![3rd_page](screenshots/3rd_screen.png)
