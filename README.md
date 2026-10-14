@@ -73,4 +73,4 @@ With later-week tools, I'd add tests and persistence, but only when the course a
 ![2nd_page](screenshots/2nd_screen.png)
 ![3rd_page](screenshots/3rd_screen.png)
 
-Built for Mobile Development Lab 1. Runs on Flutter, lives in memory, and gets out of your way.
+Built for Mobile Development Lab 1. Runs on Flutter, lives in memory.
