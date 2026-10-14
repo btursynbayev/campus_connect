@@ -1,4 +1,3 @@
-
 import 'package:flutter/foundation.dart';
 import 'event_category.dart';
 
@@ -46,8 +45,7 @@ class CampusEvent {
 
   int get count => attendees.length;
 
-  int get freePlaces =>
-      (capacity - count).clamp(0, capacity);
+  int get freePlaces => (capacity - count).clamp(0, capacity);
 
   bool get isFull => count >= capacity;
 
@@ -56,9 +54,7 @@ class CampusEvent {
   bool contains(String name) =>
       name.trim().isNotEmpty &&
       attendees.any(
-        (person) =>
-            person.toLowerCase() ==
-            name.trim().toLowerCase(),
+        (person) => person.toLowerCase() == name.trim().toLowerCase(),
       );
 
   ({int taken, int free}) get places => (
@@ -88,9 +84,8 @@ class CampusEvent {
         attendees: attendees ?? this.attendees,
         isOnline: isOnline ?? this.isOnline,
         location: location ?? this.location,
-        description: clearDescription
-            ? null
-            : (description ?? this.description),
+        description:
+            clearDescription ? null : (description ?? this.description),
         isFavourite: isFavourite ?? this.isFavourite,
       );
 }

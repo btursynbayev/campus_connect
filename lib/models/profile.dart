@@ -1,4 +1,3 @@
-
 class Profile {
   const Profile({
     required this.name,
